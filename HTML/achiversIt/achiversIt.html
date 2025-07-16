@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AchiversIt</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body>
     <!--nav bar section starts here-->
-  <div class="Menuitems">
-    <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="" >  
+  <div class="menu-items">
+    <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="AchiversIt" >  
     <ul class="items">
-        <li class="item-allcourses"><a href="">All Courses</a></li>
-        <li class="item-placments"><a href="">Placements</a></li>
-        <li class="item-internship"><a href="">Internship</a></li>
-        <li class="item-existingstudents"><a href="">Existing Students</a></li>
-        <li class="item-aboutus"><a href="">About Us</a></li>
-        <li class="item-reviews"><a href="">Reviews</a></li>
-        <li class="item-blog"><a href="">Blog</a></li>     
+        <li class="item-allcourses"><a href="#">All Courses</a></li>
+        <li class="item-placments"><a href="./placments.html">Placements</a></li>
+        <li class="item-internship"><a href="#">Internship</a></li>
+        <li class="item-existingstudents"><a href="#">Existing Students</a></li>
+        <li class="item-aboutus"><a href="#">About Us</a></li>
+        <li class="item-reviews"><a href="#">Reviews</a></li>
+        <li class="item-blog"><a href="#">Blog</a></li>     
     </ul>
   </div>
      <!--nav bar section ends here-->
@@ -29,14 +31,20 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://images.pexels.com/photos/4974916/pexels-photo-4974916.jpeg" class="d-block w-100" alt="..." width="100%" height="300px">
+    <div class="carousel-item active angular">
+      <img src="https://images.pexels.com/photos/4457896/pexels-photo-4457896.jpeg" class="d-block w-100" alt="..." width="100%" height="350px">
+       <h2>ANGULAR DEVELOPMENT COURSE</h2>
+       <button class="explore">EXPLORE COURSE</button>
     </div>
-    <div class="carousel-item">
-      <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg" class="d-block w-100" alt="..." width="100%" height="300px">
+    <div class="carousel-item react">
+      <img src="https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg" class="d-block w-100" alt="..." width="100%" height="350px">
+      <h2>REACTJS DEVELOPMENT COURSE</h2>
+      <button class="explore">EXPLORE COURSE</button>
     </div>
-    <div class="carousel-item">
-      <img src="https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg" class="d-block w-100" alt="..." width="100%" height="300px">
+    <div class="carousel-item python">
+      <img src="https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg" class="d-block w-100" alt="..." width="100%" height="350px">
+      <h2>PYTHON DEVELOPMENT COURSE</h2>
+      <button class="explore">EXPLORE COURSE</button>
     </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -47,28 +55,37 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
     </button>
+   
      </div>
    
      <!-- Top selling courses section starts here-->
 
     <div class="developer-cards-container">
     <div class="developer-card">
-      <p class="developer-subtitle">BECOME A</p>
-      <h3 class="developer-title">UI DEVELOPER</h3>
-      <a href="#" class="developer-link">Know More ></a>
+        <p class="developer-subtitle">BECOME A</p>
+        <h3 class="developer-title">UI DEVELOPER</h3>
+      <div  class="developer-link" > 
+        <a href="#">Know More ></a>
+      </div>
     </div>
+     
+   
 
   <div class="developer-card">
-    <p class="developer-subtitle">BECOME A</p>
-    <h3 class="developer-title">ANGULAR DEVELOPER</h3>
-    <a href="#" class="developer-link">Know More ></a>
+        <p class="developer-subtitle">BECOME A</p>
+        <h3 class="developer-title">UI DEVELOPER</h3>
+      <div  class="developer-link" > 
+        <a href="#">Know More ></a>
+      </div>
   </div>
 
   <div class="developer-card">
-    <p class="developer-subtitle">BECOME A</p>
-    <h3 class="developer-title">REACTJS DEVELOPER</h3>
-    <a href="#" class="developer-link">Know More ></a>
-  </div>
+        <p class="developer-subtitle">BECOME A</p>
+        <h3 class="developer-title">UI DEVELOPER</h3>
+      <div  class="developer-link" > 
+        <a href="#">Know More ></a>
+      </div>
+    </div>
 </div>
 
      <!-- Top selling courses section ends here-->
@@ -85,9 +102,11 @@
       <!-- Angular Course -->
       <div class="course-card">
       <div class="course-banner angular">
-        <div class="course-label">BEST SELLER</div>
+        <div class="course-label">BEST <br> SELLER</div>
+        <div class="course-icon-title">
         <div class="course-icon">🅰️</div>
         <h3 class="course-title">Angular Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         Angular is popular for making dynamic applications and its information official and reliance...
@@ -104,9 +123,11 @@
     <!-- React Course -->
     <div class="course-card">
       <div class="course-banner react">
-          <div class="course-label">BEST SELLER</div>
+          <div class="course-label">BEST<br> SELLER</div>
+        <div class="course-icon-title">   
         <div class="course-icon">⚛️</div>
         <h3 class="course-title">React Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         Achievers IT React JS Certification Course in Bangalore. We teach you detailed explanations of JS...
@@ -123,8 +144,10 @@
     <!-- MEAN Stack Course -->
     <div class="course-card">
       <div class="course-banner mean">
+        <div class="course-icon-title">  
         <div class="course-icon">🛡️</div>
         <h3 class="course-title">MEAN Stack Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         "MEAN Stack Front To Back". In this course we will build an in depth full stack social network applicatio...
@@ -141,8 +164,10 @@
     <!-- MERN Stack Course -->
     <div class="course-card">
       <div class="course-banner mern">
+        <div class="course-icon-title">  
         <div class="course-icon">🔥</div>
         <h3 class="course-title">MERN Stack Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         "MERN Stack Front To Back". In this course we will build an in depth full stack social network applicatio...
@@ -161,9 +186,11 @@
     <!-- Web Development Course -->
     <div class="course-card">
       <div class="course-banner web">
-          <div class="course-label">BEST SELLER</div>
+          <div class="course-label">BEST <br> SELLER</div>
+          <div class="course-icon-title">  
         <div class="course-icon">🌐</div>
         <h3 class="course-title">Web Development Course</h3>
+          </div>
       </div>
       <div class="course-description">
         With AchieversIT’s UI development course in bangalore, you will be able to master the concepts suc...
@@ -180,8 +207,10 @@
     <!-- Digital Marketing Course -->
     <div class="course-card">
       <div class="course-banner digital">
+        <div class="course-icon-title">  
         <div class="course-icon">📊</div>
         <h3 class="course-title">Digital Marketing Course</h3>
+        </div>
       </div>
       <div class="course-description">
         The future for digital marketing is promising, and its scope in the upcoming future is that it m...
@@ -198,9 +227,11 @@
     <!-- React Native Course -->
     <div class="course-card">
       <div class="course-banner react-native">
-        <div class="course-label">BEST SELLER</div>
+        <div class="course-label">BEST <br> SELLER</div>
+        <div class="course-icon-title">  
         <div class="course-icon">⚛️</div>
         <h3 class="course-title">React Native Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         Full Stack development is defined as the development of both the front end and back end sides of ...
@@ -217,8 +248,10 @@
     <!-- Ionic Development Course -->
     <div class="course-card">
       <div class="course-banner ionic">
+        <div class="course-icon-title">  
         <div class="course-icon">🧭</div>
         <h3 class="course-title">Ionic Development Course</h3>
+        </div>
       </div>
       <div class="course-description">
         Ionic 4 & Ionic 5 that you can immediately implement to build high quality apps. Our cours...
@@ -235,7 +268,7 @@
   </div>
 
 
-  <!-- Trending courses section starts here -->
+  <!-- Trending courses section ends here -->
 
   <!--Recent courses section starts here -->
 
@@ -477,8 +510,9 @@
 <!-- Achivers IT edge section starts here -->
 
 
-  <div class="features-wrapper">
+
     <h2 class="features-heading">Acheivers IT Edge</h2>
+  <div class="features-wrapper">
     <div class="features-grid">
 
       <div class="feature-box">
@@ -600,21 +634,7 @@
 
 <!-- Trainers section ends here -->
 
-<!-- Achivers IT process section starts here -->
 
-    <h2 class="process-title">AchieversIT Process</h2>
-    <div class="process-carousel">
-      <div class="process-card">Attend Free Demo Sessions</div>
-      <div class="process-card">Course Curriculum Discussion</div>
-      <div class="process-card">Assignments & Internships</div>
-      <div class="process-card">Practicals with Real-Time Scenarios/Projects</div>
-      <div class="process-card">Get Trained From Industry Experts</div>
-      <div class="process-card">Mock Interviews</div>
-      <div class="process-card">Placement Assistance</div>
-    </div>
- 
-
-  <!-- Achivers IT process section ends here -->
     
   <!-- latest jobs openings section starts here-->
   
@@ -690,7 +710,7 @@
       <img src="https://www.achieversit.com/assets/images/angualr_development_training.png" alt="Infosys" class="client-logo" width="100px" height="100px">
       <img src="https://www.achieversit.com/assets/images/aws_development_training.png" alt="Accenture" class="client-logo" width="100px" height="100px">
       <img src="https://www.achieversit.com/assets/images/boostrap_development%20.png" alt="Oracle" class="client-logo" width="100px" height="100px">
-      <img src="https://www.achieversit.com/assets/images/react_development_training.png" alt="IBM" class="client-logo" width="100px" height="100px"><br>
+      <img src="https://www.achieversit.com/assets/images/react_development_training.png" alt="IBM" class="client-logo" width="100px" height="100px">
       <img src="https://www.achieversit.com/assets/images/python_development_traning.png" alt="Wipro" class="client-logo" width="100px" height="100px">
       <img src="https://www.achieversit.com/assets/images/software_development_training.png" alt="Amazon" class="client-logo" width="100px" height="100px">
       <img src="https://www.achieversit.com/assets/images/web_development_training.png" alt="Flipkart" class="client-logo" width="100px" height="100px">
@@ -730,21 +750,55 @@
 
     <ol class="course-list">
       <li class="course-title"><strong>Front-end-Course</strong></li>
-      <p class="course-description">
+    
         User Interface Development ; Web Interface Development ; Angular Training ; ReactJS Development ; VueJS Development ; 
         BootStrap Development ; Material Development.
-      </p>
       <ul class="sub-course">
         <li>
           AchieversIT can be listed out as the best UI Development training centre, whereas locates UI Development training in 
           Bangalore ; UI Development training in Marathahalli ; also benefits as UI training online and UI Developer training.
         </li>
+        <li>AchieversIT stands out as the best Angular Development training centre, whereas locates Angular Development training in Bangalore ; Angular training in Marathahalli; also benefits as Angular training online and Angular online training. Also the courses come with variations like Angular UI Bootstrap ; AngularJS UI Bootstrap ; Angular JavaScript ; JavaScript AngularJS.</li>
+        <li>AchieversIT is stated as the best ReactJS training centre, whereas locates ReactJS training in Bangalore ; ReactJS development training in Bangalore; React training in BTM; ReactJS training in Marathahalli; also benefits as ReactJS training online and ReactJS online training ; React training ; React native training.</li>
+        
       </ul>
+      <li class="course-title"><strong>Back-end-Course</strong></li>
+      Microsoft.NET ; PHP ; Python ; Ruby ; Java
+      <li class="course-title"><strong>Moblie Developent Courses:</strong></li>
+      Android App Development ; IOS App App Development ; Windows App Development ; Hybrid App Development.
+      <li class="course-title"><strong>Full Stack Developent Courses:</strong></li>
+      Java Full Stack Training ; Net Full Stack Training ; Node.JS Full Stack Training ; PHP Full Stack Training ; MEAN Full Stack Training ; MERN Full Stack Training.
+      <li class="course-title"><strong>Digital Marketing Courses:</strong></li>
+      Digital Marketing ; Affiliate Marketing ; Email Marketing ; Google Analytics ; Lead Generation ; Remarketing ; Search Engine Optimization ; SMS Marketing ; Social Media Marketing ; WordPress.
+      <li class="course-title"><strong>Database Progarmming Courses:</strong></li>
+      MySQL Training ; Oracle Training ; Mongo DB Training ; NoSQL Training ; PostgreSQL Training.
+    
     </ol>
+    <ol>
+      <strong style="font-size: 20px;">Apart from imparting skills and knowledge, AchieversIT comes up with flexible modes of training :</strong>
+      <li>Classroom Training in Bangalore</li>
+      <li>Live Virtual Training with Instructor-Led Sessions</li>
+      <li>Self-Study (e-Learning)</li>
+    </ol>
+    <ol>
+      <strong style="font-size: 20px;">You can choose your mode of training according to your comfort and achieve your courses with certifications.</strong>
+      Perks and advantages of learning with AchieversIT :
+      <li>90 hours of training</li>
+      <li>Reasonable course fees</li>
+      <li>200 hours of lab practical sessions under experts’ mentorship</li>
+      <li>Hands-on experience with case studies with real-time examples</li>
+      <li>24*7 access and support by the team</li>
+      <li>Industry experts & Certified trainers</li>
+      <li>100% placement support</li>
+      <li>Industry-aligned curriculum with current market trends and needs</li>
+      <li>Extra hours of inputs for non-technical individuals</li>
+      <li>Flexible mode of learning</li>
+      
+    </ol>
+    <strong>You get to attend JOB-Oriented training with real-time knowledge and live projects which comes at an affordable price with effective Instructor-led sessions.</strong>
+    We, at AchieversIT strive to deliver our best efforts; and concentrate and help you in achieving your dream job you always wished for. We are dedicated to deliver excellence and impart knowledge to the individuals aspiring a career in not only IT sectors but also in various other fields like Digital Marketing, Project Management etc. Our curriculum for all the courses is reviewed systematically to keep our candidates at the cutting edges of technologies.
   </div>
-</div>
-
-<!--enroll section -->
+  <!--enroll section -->
 <div class="enroll-section">
   <div class="enroll-header">
     <h3 class="highlight-title">Impressed by Us? Enroll Now</h3>
@@ -771,13 +825,16 @@
           <input type="text" id="captcha-text" name="captcha-text" placeholder="Captcha text" class="form-input">
         </td>
         <td>
-  
+    
           <input type="submit" value="REACH US" class="submit-btn">
         </td>
       </tr>
     </table>
   </form>
 </div>
+
+</div>
+
 
 
 
@@ -806,8 +863,7 @@
   </div>
 
 
-
-  
+<section class="footer-end">
 
 <div class="footer-wrapper">
 
@@ -857,11 +913,12 @@
   <!-- Bottom Bar -->
   <div class="footer-bottom">
     <div class="footer-socials">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
     </div>
     <div class="footer-legal">
       <p>Copyright © 2025 AchieversIT. All Rights Reserved</p>
@@ -870,7 +927,7 @@
       <a href="#" class="footer-policy">Refund Policy</a>
     </div>
   </div>
-
+</section>
   <!-- Support Strip -->
   
   <div class="footer-support-strip">
