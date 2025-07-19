@@ -41,7 +41,7 @@
     background-position: center; 
     background-repeat: no-repeat;
     height: 300px; 
-    width: 100%;
+    width: 98.5%;
     padding: 10px;   
 }
 
@@ -306,7 +306,7 @@
 .footer-address,
 .footer-phone,
 .footer-email {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #cccccc;
 }
@@ -337,7 +337,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
   color: #cccccc;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .footer-policy {
@@ -361,16 +361,19 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 25px;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
 }
 
-.footer-support-strip a {
-  color: #00e676;
+.footer-support-strip .footer-call a {
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
-
+.footer-support-strip .footer-whatsapp a{
+  color:rgb(48, 30, 240);
+  text-decoration: none;
+}
 .footer-support-strip a:hover {
   text-decoration: underline;
 }
